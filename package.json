@@ -1,0 +1,23 @@
+{
+	"name": "",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev --port 3000",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@studio-freight/lenis": "^1.0.33",
+		"astro": "^4.1.2",
+		"gsap": "^3.12.4",
+		"split-type": "^0.3.4",
+		"three": "^0.160.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.1.1",
+		"prettier-plugin-astro": "^0.12.3"
+	}
+}

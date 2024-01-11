@@ -1,0 +1,10 @@
+node_modules/**
+dist/
+.prettierrc.js
+*.md
+package-lock.json
+package.json
+tsconfig.json
+astro.config.mjs
+.env*.local
+-error.log*
