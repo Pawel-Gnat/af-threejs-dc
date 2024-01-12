@@ -12,6 +12,7 @@
 	"dependencies": {
 		"@studio-freight/lenis": "^1.0.33",
 		"astro": "^4.1.2",
+		"dat.gui": "^0.7.9",
 		"gsap": "^3.12.4",
 		"split-type": "^0.3.4",
 		"three": "^0.160.0"

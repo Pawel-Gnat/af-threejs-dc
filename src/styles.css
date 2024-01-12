@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Geist';
-  src: url('/fonts/Geist-Bold.woff') format('woff');
+  src: url('/fonts/Geist-Bold.woff2') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -57,7 +57,7 @@ a {
   transform: translateY(-100%);
 }
 
-.webl {
+.webgl {
   position: fixed;
   top: 0;
   left: 0;
@@ -172,7 +172,7 @@ section {
     font-weight: bold;
     padding: 3em 0;
     border-radius: 0.3em;
-    background: #000 url('/images/rings.jpg') no-repeat / cover;
+    background: #000 url('/images/rings.jpg') no-repeat center / cover;
     color: white;
   }
 }
@@ -211,7 +211,7 @@ h3 {
   }
 
   .slide:nth-of-type(1) {
-    background: #000 url('/images/slide1.jpg') no-repeat / cover;
+    background: #000 url('/images/slide1.jpg') no-repeat center / cover;
     color: white;
 
     p {
@@ -221,7 +221,7 @@ h3 {
   }
 
   .slide:nth-of-type(2) {
-    background: #000 url('/images/slide2.jpg') no-repeat / cover;
+    background: #000 url('/images/slide2.jpg') no-repeat center / cover;
     color: black;
 
     p {
@@ -231,7 +231,7 @@ h3 {
   }
 
   .slide:nth-of-type(3) {
-    background: #000 url('/images/slide3.jpg') no-repeat/ cover;
+    background: #000 url('/images/slide3.jpg') no-repeat center / cover;
     color: white;
 
     p {
